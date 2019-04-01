@@ -1,0 +1,9 @@
+- name: Benificiaries
+  tag: beneficiary
+- name: Friend
+  tag: friend
+- name: Foe
+  tag: foe
+- name: Neutral
+  tag: neutral
+

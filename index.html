@@ -2,33 +2,40 @@
 layout: default
 ---
 {% assign letters = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z" | split: ' ' %}
-{% assign all_creatures = site.creatures | sort: 'name' %}
+{% assign all_characters = site.characters | sort: 'name' %}
 <div class="home">
-  <h1 class="page-heading">All Creatures</h1>
+  <h1 class="page-heading">All Characters</h1>
   <p id="creatureSearch">Search by name: <input type="search" id="jetsSearch"></p>
-  <p id="sortBy">Sort By: <a href="{{ site.baseurl }}/cr">CR</a> <a href="{{ site.baseurl }}/">name</a></p>
 
   <dl class="tag-list">
     <dt>Letter:</dt>
     {% for letter in letters %}
-    <dd>
-      <a href="#{{ letter }}">{{ letter }}</a>
-    </dd>
+      {% for character in all_characters %}
+        {% assign l = character.name | slice: 0 %}
+        {% if l != letter %}{% continue %}{% endif %}
+        <dd>
+            <a href="#{{ letter }}">{{ letter }}</a>
+          </dd>
+        {% assign all_letters = all_letters | uniq | push: letter %}
+      {% endfor %}
     {% endfor %}
   </dl>
+
   {% for letter in letters %}
+  {% if all_letters contains letter %}
   <a id="{{ letter }}"></a>
   <h2 class="post-list-head jetsHide">{{ letter }}</h2>
   <ul class="post-list jetsContent">
-    {% for creature in all_creatures %}
-    {% assign l = creature.name | slice: 0 %}
+    {% for character in all_characters %}
+    {% assign l = character.name | slice: 0 %}
     {% if l != letter %}{% continue %}{% endif %}
     <li>
-      <a class="post-link" href="{{ creature.url | prepend: site.baseurl }}">{{ creature.name }}</a>
+      <a class="post-link" href="{{ character.url | prepend: site.baseurl }}">{{ character.name }}</a>
     </li>
     {% endfor %}
   </ul>
   <a class="post-meta jetsHide" href="#top">Back to top &#8593;</a>
+  {% endif %}
   {% endfor %}
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>

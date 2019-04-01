@@ -1,10 +1,13 @@
-title: "Bestiary"
-author: "chisaipete"
-description: "A searchable D&D 5e creature list."
+title: "NPC / Character codex"
+author: "fritzvd"
+description: "A searchable npc and creature data bank for RPGs"
 url: "http://chisaipete.github.io"
 baseurl: "/bestiary"
 exclude: ['Rakefile', 'README.md']
 collections:
+  characters:
+    output: true
+    permalink: "/character/:name"
   creatures:
     output: true
     permalink: "/creature/:name"

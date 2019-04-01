@@ -4,6 +4,18 @@ layout: default
 <div class="post">
   <h1 class="page-heading">{{ page.name }}</h1>
   <p id="creatureSearch">Search by name: <input type="search" id="jetsSearch"></p>
-  {% assign all_creatures = site.creatures | where: 'tags', page.tag %}
-  {% include challenge_rating.html %}
+  {% assign characters = site.characters | where: 'tags',page.tag %}
+  {% if characters.size > 0 %}
+    <h2>Characters</h2>
+    <ul class="post-list jetsContent">
+      {% for character in characters | sort: 'name' %}
+      <li>
+        <a class="post-link" href="{{ character.url | prepend: site.baseurl }}">{{ character.name }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+  
+  <!-- {% assign all_creatures = site.creatures | where: 'tags', page.tag %} -->
+  <!-- {% include challenge_rating.html %} -->
 </div>
