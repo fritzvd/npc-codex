@@ -1,8 +1,8 @@
 title: "NPC / Character codex"
 author: "fritzvd"
 description: "A searchable npc and creature data bank for RPGs"
-url: "http://chisaipete.github.io"
-baseurl: "/bestiary"
+url: "http://fritzvd.github.io"
+baseurl: "/npc-codex"
 exclude: ['Rakefile', 'README.md']
 collections:
   characters:

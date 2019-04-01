@@ -2,7 +2,7 @@
 
 NPC-Codex is a mobile-friendly tracker of npc's.
 
-See the latest compiled build here: [http://fritzvd.github.io/npc-codex/](http://chisaipete.github.io/bestiary/)
+See the latest compiled build here: [http://fritzvd.github.io/npc-codex/](http://fritzvd.github.io/npc-codex/)
 
 ## To Do
 * Sort by location, sub-types, tags, CR, level, etc.
@@ -22,4 +22,5 @@ I've edited _config.yml for my own build purposes, but if you've got [Jekyll](ht
 
 ## Thanks
 
-Shoutout to Saph of http://ephe.github.io/grimoire from whom I've shamelessly borrowed the majority of the codebase
+I took most of this from http://chisaipete.github.io/bestiary. Thanks.
+Shoutout to Saph of http://ephe.github.io/grimoire from whom chisaipete shamelessly borrowed the majority of the codebase
