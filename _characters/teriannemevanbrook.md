@@ -12,4 +12,4 @@ Terianne herself is a skilled hunter with the shortbow. This is also how she met
 She is a firm and courageous lady. She is the backbone to Pom'l's kind heart.
 
 # Story appearances
-none yet
+N/A
