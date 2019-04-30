@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Achtegrond
+title: Achtergrond
 permalink: /achtergrond/
 ---
 
-# Achtergrond
 Gurulam, is een land wat aan de zee gelegen is. Met in het Westen een kustlijn en in het Oosten een hoog gebergte heeft het menig verschillende landschappen en klimaten. Gurulam wordt omgrenst door (met de klok mee vanaf het Noorden): Krultenjom, Pultishet en Ruchanakrach. Net zoals Gurulam, lijkt in de omgrenzende landen ook alsof er steeds meer vreemde buitengewone gebeurtenissen zijn die het "dagelijkse" leven verstoren. Van oudsher is Krultenjom niet een vriendelijk gebied. Er is nu ongeveer 10 jaar vrede na een lange periode van oorlog. Krultenjom kenmerkt zich door een aantal orc-tribes die daar rond gaan en zoveel mogelijk plunderen en gebieden onder hun bewind proberen te krijgen. In de grensgebieden zijn er veel half-orcs. Deze worden meestal niet zo goed ontvangen in Gurulam.
 
 ### Volken
