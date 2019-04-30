@@ -310,6 +310,11 @@ dl.tag-list {
             font-size: 18px;
         }
     }
+    img {
+        max-height: 350px;
+        float: left;
+        margin-right: 1em;
+    }
 }
 
 .rss-subscribe {
