@@ -1,10 +1,9 @@
 ---
 layout: page
 name: Gurulam
+title: Gurulam
 permalink: /achtergrond/
 ---
-
-# Gurulam
 
 ## Wist je dat
 * Iemand uit Gurulam, Gurulami wordt genoemd?
