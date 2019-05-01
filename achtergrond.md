@@ -40,7 +40,7 @@ Yudlham is seen vredige stad aan de noordwestelijke kust van Gurulam. De oorlog 
 
 ### Markante locals
 Bekijk:
-* [Graaf Maurice Pom'l](/character/poml)
-* [Drago Pom'l](/character/drago)
-* [Herbergier Frealta Bernano](/character/frealta)
-* [Smid Lorwin](/character/lorwin)
+* [Graaf Maurice Pom'l]({{ site.baseurl }}/character/poml)
+* [Drago Pom'l]({{ site.baseurl }}/character/drago)
+* [Herbergier Frealta Bernano]({{ site.baseurl }}/character/frealta)
+* [Smid Lorwin]({{ site.baseurl }}/character/lorwin)
