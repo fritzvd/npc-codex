@@ -1,20 +1,22 @@
 ---
 layout: page
-name: Achtergrond
+name: Gurulam
 permalink: /achtergrond/
 ---
 
-# Wist je dat
+# Gurulam
+
+## Wist je dat
 * Iemand uit Gurulam, Gurulami wordt genoemd?
 * Gurulami het liefst platte tarwe broden (of *melts*) eten met gestoofd vlees?
 * De lokale drank is Truk, een gedistilleerde drank met een zure afdronk
 
-# Gezegden
+## Gezegden
 * *Geef dit maar aan Gelc* - Goorder dan dit heb ik nog niet gegeten. Gelc is de oude leider van de orcs
 * *Zij heeft slagtanden gekregen* - Zij is niet mooi ouder geworden
 * *Die jongen heeft het geluk van Desna zelf* - Desna is een lokale godheid, van geluk
 
-# Slang
+## Slang
 * *gorpel* - een berijdbaar dier (a mount)
 * *trukker* - een dronkaard
 * *melts* - een lokaal plat brood
